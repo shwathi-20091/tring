@@ -1,0 +1,48 @@
+.content{
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: "Times New Roman", Times, serif,italic;
+    align-items: center;
+    padding:50px;
+    width: 100%;
+  margin-top:20px;
+}
+body:before{
+    content: 'tringapps';
+    position: fixed;
+    margin:20px;
+    
+    color: #53fc05;
+    font-size: 50px;
+    font-weight: 500px;
+    justify-content: center;
+    align-content: center;
+    
+  }
+.app{
+    
+    display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.start{
+    padding:10px;
+    border-radius:10px;
+    width:200px;
+    font-size: 20px;
+    border:none;
+    border:2px solid black;
+    float:right;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #9ff777;
+}
+.name{
+    font-size: 23px;
+    font-weight: bold;
+}
+.wish{
+    font-size: 24px;
+    font-weight: bold;
+}
